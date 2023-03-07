@@ -23,6 +23,10 @@ def encode(password):
 
 # Decodes passed value to initial value.
 def decode(arg):
+    newstring = ''
+    for x in arg:
+        newstring += str((int(x) - 3) % 10)
+    return newstring
     pass  # Replace with your code, partner! Please return the decoded password!
 
 
