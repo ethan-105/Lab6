@@ -9,9 +9,10 @@ Last updated on 3/7/2023.
 
 encoded_pass = ""
 
+
 # Functions start here.
 
-
+# Encodes password so each digit is 3 higher (or if over 10, 3 higher and 10 down).
 def encode(password):
     new_pass = ""
     for char in password:
@@ -20,14 +21,17 @@ def encode(password):
     return new_pass
 
 
-def decode(*args):
-    pass
+# Decodes passed value to initial value.
+def decode(arg):
+    pass  # Replace with your code, partner!
 
 
+# Prints the entire menu.
 def print_menu():
     print("Menu\n-------------\n1. Encode\n2. Decode\n3. Quit\n")
 
 
+# Runs the loop, prints the menu, handles inputs, and calls other functions above.
 def main():
     global encoded_pass
     while True:
@@ -42,5 +46,6 @@ def main():
             quit()
 
 
+# Only runs main if the file is explicitly ran.
 if __name__ == "__main__":
     main()
