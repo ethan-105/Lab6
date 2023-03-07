@@ -5,7 +5,7 @@ The Decoder will be written by someone else.
 Last updated on 3/7/2023.
 """
 
-# Global variables go here.
+# Global variables start here.
 
 encoded_pass = ""
 
