@@ -23,7 +23,7 @@ def encode(password):
 
 # Decodes passed value to initial value.
 def decode(arg):
-    pass  # Replace with your code, partner!
+    pass  # Replace with your code, partner! Please return the decoded password!
 
 
 # Prints the entire menu.
