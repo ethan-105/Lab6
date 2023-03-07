@@ -28,7 +28,11 @@ def decode(arg):
 
 # Prints the entire menu.
 def print_menu():
-    print("Menu\n-------------\n1. Encode\n2. Decode\n3. Quit\n")
+    print("Menu\n"
+          "-------------\n"
+          "1. Encode\n"
+          "2. Decode\n"
+          "3. Quit\n")
 
 
 # Runs the loop, prints the menu, handles inputs, and calls other functions above.
